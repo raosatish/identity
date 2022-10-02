@@ -19,9 +19,9 @@ public class TestUsers
             var address = new
             {
                 street_address = "One Hacker Way",
-                locality = "Heidelberg",
-                postal_code = 69118,
-                country = "Germany"
+                locality = "Westlake, OH",
+                postal_code = 44001,
+                country = "USA"
             };
                 
             return new List<TestUser>
