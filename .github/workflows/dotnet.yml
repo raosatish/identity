@@ -2,9 +2,9 @@ name: .NET
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master" ,"develop", "feature/readyIdentityForUse" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master" ,"develop", "feature/readyIdentityForUse" ]
 
 jobs:
   build:
